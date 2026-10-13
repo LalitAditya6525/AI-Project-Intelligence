@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+PyMuPDF
+python-docx
+pandas
+
+langchain-text-splitters
+sentence-transformers
+chromadb
+
+pydantic

@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+client/node_modules/
+client2/node_modules/
+
+# Build files
+dist/
+dist-ssr/
+build/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Project-specific data
+data/
+Agile document/
+
+# Logs
+*.log
+
+# Local databases and temporary files
+*.sqlite3
+*.db
+
+# Keep dependency files tracked
+!package.json
+!package-lock.json
+!requirements.txt
