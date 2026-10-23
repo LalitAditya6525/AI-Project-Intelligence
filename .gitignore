@@ -8,6 +8,10 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Node.js
 node_modules/
@@ -23,17 +27,39 @@ build/
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
 
 # Project-specific data
 data/
+uploads/
+models/
+chroma_db/
+vectorstore/
+indexes/
 
+# Python model and dataset files
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+*.pickle
+*.joblib
 
-# Logs
+# Logs and caches
 *.log
+.cache/
+.pytest_cache/
 
 # Local databases and temporary files
 *.sqlite3
 *.db
+*.tmp
+
+# Virtual environments and package caches
+pip-wheel-metadata/
+wheels/
 
 # Keep dependency files tracked
 !package.json
